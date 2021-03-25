@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "741611831774",
+    "firebase_url": "https://wednes-9570c-default-rtdb.firebaseio.com",
+    "project_id": "wednes-9570c",
+    "storage_bucket": "wednes-9570c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741611831774:android:879b292f22b1f18566dd4f",
+        "android_client_info": {
+          "package_name": "com.example.apppro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741611831774-a9lkdi2paloqh0t3fteco7daqq7ph2kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJfxCRdz2fJo6uU1pDUNHT8qZseED9_Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741611831774-a9lkdi2paloqh0t3fteco7daqq7ph2kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741611831774:android:7c5910d2df11f64d66dd4f",
+        "android_client_info": {
+          "package_name": "com.example.miniproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741611831774-a9lkdi2paloqh0t3fteco7daqq7ph2kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJfxCRdz2fJo6uU1pDUNHT8qZseED9_Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741611831774-a9lkdi2paloqh0t3fteco7daqq7ph2kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

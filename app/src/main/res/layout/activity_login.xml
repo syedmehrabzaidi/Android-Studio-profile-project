@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Lemail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7C229"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="182dp"
+        android:layout_height="173dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="HELLO , WelCOME BACK"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:fontFamily="sans-serif-black"
+        android:text="Sign In to Contiune"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/L_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
+
+            android:gravity="center"
+            android:hint="Email"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" /><!--set bold and italic text style-->
+
+        <EditText
+            android:id="@+id/L_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" /><!--set bold and italic text style-->
+
+        <Button
+            android:id="@+id/forget"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#00000000"
+            android:elevation="0dp"
+            android:gravity="right"
+            android:paddingTop="20dp"
+
+            android:text="Forget Password?" />
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="130dp"
+
+
+            android:onClick="login"
+            android:text="GO"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:elevation="0dp"
+            android:gravity="center"
+android:onClick="sig"
+            android:paddingTop="20dp"
+            android:text="New User? Sign up"
+            android:textColor="#0D76CA" />
+
+        <Button
+            android:id="@+id/admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:elevation="0dp"
+            android:gravity="center"
+
+            android:paddingTop="20dp"
+            android:text="Admin Panel"
+            android:textColor="#0D76CA" />
+
+    </LinearLayout>
+</LinearLayout>
